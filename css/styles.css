@@ -1,0 +1,168 @@
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: "Montserrat-black ";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cta-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  width: 50%;
+  font-size: 3rem;
+}
+
+.nav-item {
+  width: 50%;
+  font-size: 1.25rem;
+}
+
+.i {
+  transform: rotate(20deg);
+  /* Standard syntax */
+  width: 75%;
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 1rem 0;
+}
+
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+/* features*/
+#features {
+  padding: 15% 7%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.Features {
+  font-family: "Montserrat-bold";
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-text {
+  color: #8f8f8f;
+  font-size: 1.4rem;
+}
+
+/*testimonial*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 25%;
+  margin-right: 10px;
+}
+
+/*press*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*pricing*/
+#pricing {
+  padding: 100px;
+}
+
+.package {
+  font-family: "Montserrat-black";
+}
+
+.pricing-button {
+  width: 100%;
+}
+
+.pricing-column {
+  padding: 20px 20px 0 20px;
+}
+
+/*cta*/
+#cta {
+  background-color: #ff4c68;
+  padding: 50px 110px;
+  text-align: center;
+  font-family: "Montserrat-Black";
+}
+
+.cta-button {
+  margin: 30px 15px;
+}
+
+/*footer*/
+#footer {
+  margin: 150px;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 20px;
+}
+
+.last {
+  margin-top: 50px;
+  font-size: 2rem;
+  color: #8f8f8f;
+  font-family: "Montserrat-Bold"
+}
+/*footer ends*/
+@media (max-width: 1180px) {
+  #title {
+    text-align: center;
+  }
+
+  .i {
+    transform: rotate(0);
+    position: static;
+  }
+}
